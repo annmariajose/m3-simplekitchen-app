@@ -3,10 +3,9 @@ html
   head
     title= `${title}`
     link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Sacramento&display=swap')
+    link(rel='StyleSheet' href='/css/form.css' type='text/css')
     link(rel='stylesheet', href='/css/styles.css')
 
-  body
-    div.container.listing-reg
-      h1 My Amazing App
-
-      block content
+  block body

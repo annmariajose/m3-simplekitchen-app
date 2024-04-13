@@ -6,14 +6,14 @@ $fontFamily1: Arial, Helvetica, Sans-Serif;
 $fontFamily2: 'Sacramento', cursive;
 $fontSizeH1: 3em;
 $fontSizeH2: 2.5em;
-$fontSizeH3: 2em;
+$fontSizeH3: 1em;
 $fontSizeSmall: 0.85em;
 
 
 html {
   // Operations
   font-size: 0.8em + 0.2;           //1 
-  width: ( 100% / 2) + 50%      //75;
+  width: 100%;      //75;
 }
 
 body{
@@ -36,22 +36,24 @@ main {
 
     #intro-image {
       float: left;
-      width: 800px;
+      width: 700px;
 
       img {
-        width: 800px;
+        width: 740px;
+        height: 480px;
       }
     }
 
     #intro-text {
       width: 550px;
-      height: 407px;
+      height: 480px;
       float:left;
       background: $sectionColor;
       text-align: center;
       padding-top: 8em;
 
       h3 {
+        padding-top: 1.5em;
         font-size: $fontSizeH3;
         color: $color3;
       }
@@ -61,6 +63,15 @@ main {
         font-size: 2em;
       }
     }
+  
+  /* thank you */
+
+  .thank-you {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1em;
+  }
 }
 
 footer {
@@ -73,10 +84,10 @@ footer {
 // @extend 
 button {
   color: $color4;
-  width: 100px;
+  width: 120px;
   height: 40px;
   background: $backgroundColor1;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .submit-buttton {
   @extend button;

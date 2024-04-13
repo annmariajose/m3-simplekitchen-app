@@ -1,21 +1,25 @@
-/* Nesting */
-/* SCSS */
 nav {
   font-size: 1em;
-  font-font-weight: bold;
+  font-weight: bold;
+  float: right;
+}
+nav:first-child {
   float: left;
+}
+nav:first-child ul li {
+  float: left;
+  margin: 0 5px 0 0;
 }
 nav ul {
   list-style-type: none;
 }
 nav ul li {
-  float: left;
-  margin: 0 5px 0 0;
-  color: white;
+  margin: 0 50px 0 0;
+  color: rgb(255, 255, 255);
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 nav ul li a:hover {
   text-decoration: underline;
@@ -29,7 +33,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, Sans-Serif;
-  background: #daaa0e;
+  background: rgb(218, 170, 14);
 }
 
 header {
@@ -39,34 +43,43 @@ header {
 }
 
 main {
-  background: white;
+  background: rgb(255, 255, 255);
   width: 1350px;
   min-height: 535px;
   padding: 1.5%;
   margin: 0 auto;
+  /* thank you */
 }
 main #intro-image {
   float: left;
-  width: 800px;
+  width: 700px;
 }
 main #intro-image img {
-  width: 800px;
+  width: 740px;
+  height: 480px;
 }
 main #intro-text {
   width: 550px;
-  height: 407px;
+  height: 480px;
   float: left;
-  background: #d4d5d8;
+  background: rgb(212, 213, 216);
   text-align: center;
   padding-top: 8em;
 }
 main #intro-text h3 {
-  font-size: 2em;
-  color: #313130;
+  padding-top: 1.5em;
+  font-size: 1em;
+  color: rgb(49, 49, 48);
 }
 main #intro-text span {
   font-family: "Sacramento", cursive;
   font-size: 2em;
+}
+main .thank-you {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1em;
 }
 
 footer {
@@ -77,15 +90,15 @@ footer {
 }
 
 button, .submit-buttton {
-  color: white;
-  width: 100px;
+  color: rgb(255, 255, 255);
+  width: 120px;
   height: 40px;
-  background: #daaa0e;
-  margin-top: 2em;
+  background: rgb(218, 170, 14);
+  margin-top: 1em;
 }
 
 .submit-buttton {
-  border: 1px #313130;
+  border: 1px rgb(49, 49, 48);
 }
 
 /*# sourceMappingURL=styles.css.map */
