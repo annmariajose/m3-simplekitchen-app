@@ -1,0 +1,17 @@
+/* Styles for listing table */
+.listing-table {
+  width: 100%;
+}
+.listing-table td, .listing-table th {
+  padding: 10px;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+.listing-table td:first-child, .listing-table th:first-child {
+  border-right: 1px solid rgb(102, 102, 102);
+}
+.listing-table th {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=listingtable.css.map */

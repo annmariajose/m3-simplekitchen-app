@@ -1,0 +1,21 @@
+@import "colors.scss";
+
+/* Styles for listing table */
+.listing-table {
+  width: 100%;
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid $tableBorderColor;
+
+    &:first-child {
+      border-right: 1px solid $tableBorderColor;
+    }
+  }
+
+  th {
+    @extend td;
+    background: $tableHeaderBgColor;
+    color: $color4;
+  }
+}
