@@ -10,7 +10,7 @@ body {
 /* css for registration form and errors*/
 #registration-container {
   text-align: center;
-  padding-top: 2em;
+  padding: 3em 0;
 }
 #registration-container h3 {
   font-size: 1.25em;
@@ -47,7 +47,7 @@ body {
   display: table;
 }
 .my-errors li {
-  font-size: 0.85em;
+  font-size: 0.75em;
 }
 .my-errors li:before {
   content: "! Error : ";

@@ -24,3 +24,10 @@ block body
         block content
     footer
         | &copy; Copyright 2021
+    
+    script.
+        if(document.getElementById('registration-container')) {
+            document.getElementById("intro-text").style.height = "610px";
+        } else {
+            document.getElementById("intro-text").style.height = "480px";
+        }
